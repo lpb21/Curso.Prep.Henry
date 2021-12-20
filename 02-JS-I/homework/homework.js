@@ -7,7 +7,7 @@ const nuevaString = "Hola, espero poder unirme a uds";
 const nuevoNum = 21;
 
 // Crea una variable booleana:
-const nuevoBool = True;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -43,7 +43,7 @@ function suma(x, y) {
 function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
-    return y - x;
+    return x - y;
 
 }
 
@@ -76,7 +76,7 @@ function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    return str1.lenght === str2.lenght
+    return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -178,7 +178,7 @@ function esPositivo(numero) {
     if (numero === 0) {
         return false;
     } else if (numero > 0) {
-        return "es posotivo";
+        return "Es positivo";
     } else {
         return "Es negativo";
     }
@@ -195,15 +195,15 @@ function combinarNombres(nombre, apellido) {
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
-    var1 = nombre + '' + apellido;
-    return var1;
+    var comb = nombre + ' ' + apellido;
+    return comb;
 }
 
 function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    return "Hola" + nombre + '!';
+    return 'Hola ' + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -243,12 +243,12 @@ function esVocal(letra) {
     // Si no es vocal, tambien debe devolver "Dato incorrecto".
     //Escribe tu código aquí
     if (letra.length > 1) {
-        return "Dato Incorrecto";
+        return "Dato incorrecto"
     }
-    if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
-        return "Es vocal";
+    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+        return "Es vocal"
     }
-    return "Dato Incorrecto";
+    return "Dato incorrecto"
 }
 
 
