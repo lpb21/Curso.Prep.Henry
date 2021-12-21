@@ -1,0 +1,11 @@
+Conceptos 03-JS-I
+
+*For: Nos ayuda a repetir un bloque de codigo, varias veces, para que algunas tareas o ejecuciones no sean tan repetitivas o mecanicas.
+
+*&&: Es un operador el cual es "and".ejemplo: vas a comer "y" beber, aqui el operador es "y" que tambien se conoce como "and".
+
+||: Es un operador el cual es "or". ejemplo: deseas cafe "o" limonada, aqui el opereador es "o" que tambien se conoce como "or".
+
+!: Es el operador de negacion es decir "false", ejemplo:
+jugar = vas a ir a jugar, con el operador de negacion seria asi:
+! jugar, que se traduce a "No vas a ir a jugar".
