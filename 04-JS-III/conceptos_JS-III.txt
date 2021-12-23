@@ -1,0 +1,3 @@
+////CONCEPTOS//
+
+*Array: Son lista de diferentes tipos de datos y se puede acceder a ellas de diferentes maneras y una de ellas es por el nro de indice que en javascript empiezan por el 0; es decir el elemento 1 de mi lista seria de indice 0 y asi sucesivamente.
